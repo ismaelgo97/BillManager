@@ -1,4 +1,5 @@
 class Bill:
-    def __init__(self, cuantity, contact):
-        self.quantity = cuantity
+    def __init__(self, quantity, code, contact):
+        self.quantity = quantity
         self.contact = contact
+        self.code = code
